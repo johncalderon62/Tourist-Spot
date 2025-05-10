@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Palawan - The Last Frontier</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Explore Palawan</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Palawan – The Best Island in the World</h1>
+            <p>Experience pristine beaches, hidden lagoons, and breathtaking landscapes.</p>
+            <a href="#tours" class="cta-button">Book Your Adventure Now</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Must-Visit Places in Palawan</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="images/el-nido.jpg" alt="El Nido">
+                <h3>El Nido</h3>
+                <p>Famous for its lagoons and limestone cliffs.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="destination-card">
+                <img src="images/coron.jpg" alt="Coron">
+                <h3>Coron</h3>
+                <p>Best for shipwreck diving and hot springs.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="destination-card">
+                <img src="images/puerto-princesa.jpg" alt="Puerto Princesa">
+                <h3>Puerto Princesa</h3>
+                <p>Home to the UNESCO-listed Underground River.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours">
+        <h2>Popular Tours</h2>
+        <div class="tour-cards">
+            <div class="tour-card">
+                <img src="images/island-hopping.jpg" alt="Island Hopping">
+                <h3>Island Hopping Tour</h3>
+                <p>Explore hidden lagoons and snorkel in crystal-clear waters.</p>
+                <span class="price">5000</span>
+                <a href="#contact" class="book-now">Book Now</a>
+            </div>
+            <div class="tour-card">
+                <img src="images/underground-river.jpg" alt="Underground River">
+                <h3>Underground River Expedition</h3>
+                <p>Discover the UNESCO-listed Puerto Princesa Underground River.</p>
+                <span class="price">5000</span>
+                <a href="#contact" class="book-now">Book Now</a>
+            </div>
+            <div class="tour-card">
+                <img src="images/scuba-diving.jpg" alt="Scuba Diving">
+                <h3>Scuba Diving Adventure</h3>
+                <p>Dive into Coron’s famous shipwrecks and coral reefs.</p>
+                <span class="price">5000</span>
+                <a href="#contact" class="book-now">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Explore Palawan Through Our Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/gallery1.jpg" alt="Palawan Beach">
+            <img src="images/gallery2.jpg" alt="Kayaking in El Nido">
+            <img src="images/gallery3.jpg" alt="Coron Diving">
+            <img src="images/gallery4.jpg" alt="Underground River">
+            <img src="images/gallery5.jpg" alt="Port Barton">
+            <img src="images/gallery6.jpg" alt="Sunset in Palawan">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Travelers Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"Palawan is paradise on Earth! The lagoons are unreal."</p>
+                <span>- Sarah, USA</span>
+            </div>
+            <div class="testimonial">
+                <p>"Best diving experience in Coron!"</p>
+                <span>- Mark, Australia</span>
+            </div>
+            <div class="testimonial">
+                <p>"The Underground River is a must-see!"</p>
+                <span>- Lisa, Canada</span>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Book Your Trip</h2>
+        <form id="booking-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select required>
+                <option value="" disabled selected>Select a Tour</option>
+                <option value="island-hopping">Island Hopping</option>
+                <option value="underground-river">Underground River</option>
+                <option value="scuba-diving">Scuba Diving</option>
+            </select>
+            <input type="date" required>
+            <textarea placeholder="Special Requests"></textarea>
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Explore Palawan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
